@@ -139,6 +139,12 @@
   transition: all 0.5s ease-in-out;
 }
 
+.nav .menu-nav.open {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  /*back to initial position*/
+}
+
 body {
   background: #272727;
   color: #fff;
